@@ -1,0 +1,325 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #0A0119;
+}
+
+
+
+
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    padding: 44px 44px;
+}
+
+
+.leftWord {
+    color: #F9F5FF;
+    font-size: 21px;
+    font-weight: 500;
+    margin-left: 80px;
+}
+
+.navigationContainer {
+    display: flex;
+    margin-right: 100px;
+}
+
+.navigationContainer nav {
+    display: flex;
+}
+
+.navigationContainer nav ul {
+    display: flex;
+    gap: 35px;
+}
+
+.list {
+    list-style: none;
+    font-size: 16px;
+    color: #F9F5FF;
+    text-decoration: none;
+}
+
+
+
+
+.firstSection {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #FAFBFF;
+}
+
+.firstSectionName {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.firstSectionJob {
+    font-size: 32px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.firstSectionAbout {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-top: 20px;
+}
+
+.firstSectionBtn {
+    border-radius: 10px;
+    padding: 5.25px 15.7px;
+    margin-top: 25px;
+}
+
+.firstSectionBtn:hover {
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+.container {
+    margin: 0;
+    color: #FAFBFF;
+}
+
+.sectionTwo {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sectionTwo-p-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.foto {
+    max-width: 200px;
+
+}
+
+.text {
+    margin-bottom: 10px;
+    line-height: 1.5;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.button {
+    display: block;
+    margin-top: 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 5.25px 15.7px;
+
+}
+
+.button:hover {
+    background-color: grey;
+    color: white;
+}
+
+
+
+
+.projects {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+        "ticktok-1 fintech-1 e-commerce"
+        "tictok-2 fintech-2 fintech";
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px 50px;
+    color: #FAFBFF;
+    margin-bottom: 50px;
+}
+
+.ticktok-1 {
+    grid-area: ticktok-1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-left: 80px;
+}
+
+.fintech-1 {
+    grid-area: fintech-1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-left: 40px;
+}
+
+.e-commerce {
+    grid-area: e-commerce;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.tictok-2 {
+    grid-area: tictok-2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-left: 80px;
+}
+
+.fintech-2 {
+    grid-area: fintech-2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-left: 40px;
+}
+
+.title-projects-1 {
+    color: #FAFBFF;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+.projects-img {
+    width: 350px;
+}
+
+.projects-img:hover {
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+
+.title-projects-2 {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.links-projects {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    gap: 15px;
+    font-size: 12px;
+}
+
+.html-1 {
+    border: 3px solid #FAFBFF;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.css-1 {
+    border: 3px solid #FAFBFF;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.javascript-1 {
+    border: 3px solid #FAFBFF;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    color: #FAFBFF;
+    margin-bottom: 50px;
+}
+
+.do-you {
+    font-size: 16px;
+}
+
+.contact-me {
+    font-size: 22px;
+}
+
+.gmail {
+    font-size: 32px;
+    cursor: pointer;
+}
+
+
+
+
+.footerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    padding: 44px 44px;
+}
+
+
+.iconsContainer {
+    display: flex;
+    margin-right: 100px;
+}
+
+.iconsContainer nav {
+    display: flex;
+}
+
+.iconsContainer nav ul {
+    display: flex;
+    gap: 55px;
+}
+
+.footerIcon {
+    width: 15px;
+    cursor: pointer;
+}
+
+.copyright {
+    display: flex;
+    color: #F9F5FF;
+    gap: 7px;
+    margin-left: 115px;
+    margin-bottom: 50px;
+}
+
+.copyright-icon {
+    width: 16px;
+}
